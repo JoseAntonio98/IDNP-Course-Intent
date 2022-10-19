@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">Postulant App</string>
+    <string name="user_image">UserImage</string>
+
+    <!-- Login Activity -->
+    <string name="username_hint">Username:</string>
+    <string name="password_hint">Password:</string>
+    <string name="button_label">Login</string>
+
+    <!-- Menu Activity -->
+
+    <!-- PostulantInfo Activity -->
+
+    <!-- PostulantRegister Activity -->
+
 </resources>
