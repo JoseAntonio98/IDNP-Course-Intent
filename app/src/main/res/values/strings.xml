@@ -8,7 +8,9 @@
     <string name="button_label">Login</string>
 
     <!-- Menu Activity -->
-
+    <string name="button_label2">Info. Postulante</string>
+    <string name="button_label3">Nuevo</string>
+    
     <!-- PostulantInfo Activity -->
 
     <!-- PostulantRegister Activity -->
