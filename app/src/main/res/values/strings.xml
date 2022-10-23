@@ -26,4 +26,8 @@
 
     <!-- PostulantRegister Activity -->
 
+    <string name="titleRegister">Registrar Postulante</string>
+    <string name="button_register">Registrar</string>
+    <string name="datebirth_hint">Fecha nacimiento xx/xx/xx</string>
+
 </resources>
