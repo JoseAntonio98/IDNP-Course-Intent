@@ -20,11 +20,11 @@
             android:id="@+id/dniRegistro"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:autofillHints=""
             android:ems="10"
             android:hint="@string/dni_label"
-            android:inputType="textPersonName"
-            android:minHeight="48dp"
-            android:autofillHints="" />
+            android:inputType="number"
+            android:minHeight="48dp" />
 
         <EditText
             android:id="@+id/nombresRegistro"
