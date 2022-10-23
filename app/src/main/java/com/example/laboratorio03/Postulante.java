@@ -1,6 +1,8 @@
 package com.example.laboratorio03;
 
-public class Postulante {
+import java.io.Serializable;
+
+public class Postulante implements Serializable{
     String dni;
     String nombres;
     String apellidos;
