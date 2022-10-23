@@ -49,6 +49,6 @@ public class MenuActivity extends AppCompatActivity {
 
     public void goToPostulanteRegistroActivity(View view) {
         Intent RegistroIntent = new Intent(this, PostulantRegisterActivity.class);
-        startActivity(RegistroIntent);
+        actResLauncher.launch(RegistroIntent);
     }
 }
