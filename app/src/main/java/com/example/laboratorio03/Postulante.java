@@ -17,4 +17,29 @@ public class Postulante {
         colegio = _colegio;
         carrera = _carrera;
     }
+
+    public String getDni() {
+        return dni;
+    }
+
+    public String getNombres() {
+        return nombres;
+    }
+
+    public String getApellidos() {
+        return apellidos;
+    }
+
+    public String getFecha() {
+        return fecha;
+    }
+
+    public String getColegio() {
+        return colegio;
+    }
+
+    public String getCarrera() {
+        return carrera;
+    }
+
 }
