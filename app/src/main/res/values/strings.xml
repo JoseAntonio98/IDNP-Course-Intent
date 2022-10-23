@@ -12,13 +12,17 @@
     <string name="button_label3">Nuevo</string>
     
     <!-- PostulantInfo Activity -->
-    <string name="search_term_hint">DNI</string>
+    <string name="search_term_hint">DNI Postulante</string>
+    <string name="button_search">Buscar</string>
+
     <string name="dni_label">DNI</string>
     <string name="name_label">Nombres</string>
     <string name="lastname_label">Apellidos</string>
     <string name="datebirth_label">Fecha nacimiento</string>
     <string name="school_label">Colegio</string>
     <string name="career_label">Carrera</string>
+
+    <string name="response_labels">-</string>
 
     <!-- PostulantRegister Activity -->
 
