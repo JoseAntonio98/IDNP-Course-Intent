@@ -11,10 +11,13 @@
 
 ## Preview
 
-  - **Login** (version 1.0)
-  
-    ![login_preview_1 0](https://user-images.githubusercontent.com/64320646/196757927-a7ddee86-a54c-43a1-8a74-1800c8c2cba2.png)
-
+  - **Login and Menu Activities**
+    
+    ![image](https://user-images.githubusercontent.com/64320646/197639190-e63955a4-73d9-4d70-9292-7301e250354a.png)
+         
+  - **PostulanteRegistro and PostulanteInfo Activities**
+    
+    ![image](https://user-images.githubusercontent.com/64320646/197639313-9a650f37-f8b5-41b5-a713-f0bdb57f336b.png)
   
 
 ## References
