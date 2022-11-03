@@ -1,205 +1,171 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".PostulantInfoActivity"
-    tools:layout_editor_absoluteX="-16dp"
-    tools:layout_editor_absoluteY="2dp">
+    android:orientation="vertical">
 
-    <EditText
-        android:id="@+id/editTextTextSearchDNI"
+    <LinearLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="35dp"
-        android:layout_marginTop="52dp"
-        android:layout_marginEnd="12dp"
-        android:autofillHints=""
-        android:ems="10"
-        android:hint="@string/search_term_hint"
-        android:inputType="textPersonName"
-        android:minHeight="48dp"
-        android:textColorHint="#757575"
-        app:layout_constraintEnd_toStartOf="@+id/buttonSearchDNI"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_height="133dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
 
-    <Button
-        android:id="@+id/buttonSearchDNI"
-        android:layout_width="120dp"
-        android:layout_height="53dp"
-        android:layout_marginStart="12dp"
-        android:layout_marginTop="49dp"
-        android:layout_marginEnd="35dp"
-        android:text="@string/button_search"
-        android:textSize="14sp"
-        android:textAllCaps="false"
-        app:icon="@drawable/ic_baseline_search"
-        app:iconGravity="textStart"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/editTextTextSearchDNI"
-        app:layout_constraintTop_toTopOf="parent" />
+        <EditText
+            android:id="@+id/editTextTextSearchDNI"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:layout_marginEnd="15dp"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="@string/search_term_hint"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:textColorHint="#757575" />
 
-    <TextView
-        android:id="@+id/textViewDni"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="29dp"
-        android:layout_marginTop="155dp"
-        android:text="@string/dni_label"
-        android:textSize="19sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextSearchDNI"
-        tools:text="@string/dni_label" />
+        <Button
+            android:id="@+id/buttonSearchDNI"
+            android:layout_width="120dp"
+            android:layout_height="53dp"
+            android:layout_marginTop="35dp"
+            android:text="@string/button_search"
+            android:textAllCaps="false"
+            android:textSize="14sp"
+            android:drawableLeft="@drawable/ic_baseline_search"/>
 
-    <TextView
-        android:id="@+id/textViewName"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="29dp"
-        android:layout_marginTop="18dp"
-        android:text="@string/name_label"
-        android:textSize="19sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewDni"
-        tools:text="@string/name_label" />
+    </LinearLayout>
 
-    <TextView
-        android:id="@+id/textViewLastname"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="29dp"
-        android:layout_marginTop="18dp"
-        android:text="@string/lastname_label"
-        android:textSize="19sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewName"
-        tools:text="@string/lastname_label" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
 
-    <TextView
-        android:id="@+id/textViewBirth"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="29dp"
-        android:layout_marginTop="18dp"
-        android:text="@string/datebirth_label"
-        android:textSize="19sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewLastname"
-        tools:text="@string/datebirth_label" />
+        <LinearLayout
+            android:layout_width="171dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/textViewSchool"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="31dp"
-        android:layout_marginTop="18dp"
-        android:text="@string/school_label"
-        android:textSize="19sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewBirth"
-        tools:text="@string/school_label" />
+            <TextView
+                android:id="@+id/textViewDni"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="50dp"
+                android:text="@string/dni_label"
+                android:textSize="19sp" />
 
-    <TextView
-        android:id="@+id/textViewCareer"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="31dp"
-        android:layout_marginTop="18dp"
-        android:text="@string/career_label"
-        android:textSize="19sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewSchool"
-        tools:text="@string/career_label" />
+            <TextView
+                android:id="@+id/textViewName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="18dp"
+                android:text="@string/name_label"
+                android:textSize="19sp" />
 
-    <TextView
-        android:id="@+id/textViewFecha"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="12dp"
-        android:layout_marginTop="17dp"
-        android:layout_marginEnd="137dp"
-        android:text="@string/response_labels"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/textViewBirth"
-        app:layout_constraintTop_toBottomOf="@+id/textViewApe" />
+            <TextView
+                android:id="@+id/textViewLastname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="18dp"
+                android:text="@string/lastname_label"
+                android:textSize="19sp" />
 
-    <TextView
-        android:id="@+id/textViewCarr"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="99dp"
-        android:layout_marginTop="17dp"
-        android:layout_marginEnd="137dp"
-        android:text="@string/response_labels"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.297"
-        app:layout_constraintStart_toEndOf="@+id/textViewCareer"
-        app:layout_constraintTop_toBottomOf="@+id/textViewColg" />
+            <TextView
+                android:id="@+id/textViewBirth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="18dp"
+                android:text="@string/datebirth_label"
+                android:textSize="19sp" />
 
-    <TextView
-        android:id="@+id/textViewColg"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="96dp"
-        android:layout_marginTop="17dp"
-        android:layout_marginEnd="137dp"
-        android:text="@string/response_labels"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.318"
-        app:layout_constraintStart_toEndOf="@+id/textViewSchool"
-        app:layout_constraintTop_toBottomOf="@+id/textViewFecha" />
+            <TextView
+                android:id="@+id/textViewSchool"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="18dp"
+                android:text="@string/school_label"
+                android:textSize="19sp" />
 
-    <TextView
-        android:id="@+id/textViewApe"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="84dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="137dp"
-        android:text="@string/response_labels"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.318"
-        app:layout_constraintStart_toEndOf="@+id/textViewLastname"
-        app:layout_constraintTop_toBottomOf="@+id/textViewNom" />
+            <TextView
+                android:id="@+id/textViewCareer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="18dp"
+                android:text="@string/career_label"
+                android:textSize="19sp" />
 
-    <TextView
-        android:id="@+id/textViewNom"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="84dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="137dp"
-        android:text="@string/response_labels"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.318"
-        app:layout_constraintStart_toEndOf="@+id/textViewName"
-        app:layout_constraintTop_toBottomOf="@+id/textViewDNI" />
+        </LinearLayout>
 
-    <TextView
-        android:id="@+id/textViewDNI"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="131dp"
-        android:layout_marginTop="152dp"
-        android:layout_marginEnd="137dp"
-        android:text="@string/response_labels"
-        android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.318"
-        app:layout_constraintStart_toEndOf="@+id/textViewDni"
-        app:layout_constraintTop_toBottomOf="@+id/buttonSearchDNI"
-        android:textStyle="bold" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <LinearLayout
+            android:layout_width="238dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewDNI"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:layout_marginEnd="137dp"
+                android:text="@string/response_labels"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewNom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="137dp"
+                android:text="@string/response_labels"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewApe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="137dp"
+                android:text="@string/response_labels"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewFecha"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="17dp"
+                android:layout_marginEnd="137dp"
+                android:text="@string/response_labels"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewColg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="17dp"
+                android:layout_marginEnd="137dp"
+                android:text="@string/response_labels"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewCarr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="17dp"
+                android:layout_marginEnd="137dp"
+                android:text="@string/response_labels"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
