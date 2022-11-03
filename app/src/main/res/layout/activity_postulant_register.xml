@@ -85,7 +85,9 @@
             android:id="@+id/botonRegistrar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/button_register" />
+            android:text="@string/button_register"
+            app:icon="@drawable/ic_baseline_check"
+            app:iconGravity="textStart" />
 
     </LinearLayout>
 

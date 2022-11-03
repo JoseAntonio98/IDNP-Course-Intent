@@ -27,12 +27,16 @@
 
     <Button
         android:id="@+id/buttonSearchDNI"
-        android:layout_width="97dp"
+        android:layout_width="120dp"
         android:layout_height="53dp"
         android:layout_marginStart="12dp"
         android:layout_marginTop="49dp"
         android:layout_marginEnd="35dp"
         android:text="@string/button_search"
+        android:textSize="14sp"
+        android:textAllCaps="false"
+        app:icon="@drawable/ic_baseline_search"
+        app:iconGravity="textStart"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/editTextTextSearchDNI"
         app:layout_constraintTop_toTopOf="parent" />

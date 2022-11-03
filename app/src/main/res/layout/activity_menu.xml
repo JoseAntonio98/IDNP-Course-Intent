@@ -14,6 +14,8 @@
         android:layout_marginBottom="78dp"
         android:onClick="goToPostulanteRegistroActivity"
         android:text="@string/button_label3"
+        app:icon="@drawable/ic_postulant_add"
+        app:iconGravity="textStart"
         app:layout_constraintBottom_toTopOf="@+id/button3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -28,6 +30,8 @@
         android:layout_marginBottom="343dp"
         android:onClick="goToPostulanteInfoActivity"
         android:text="@string/button_label2"
+        app:icon="@drawable/ic_postulant_view_info"
+        app:iconGravity="textStart"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="@+id/button2"
         app:layout_constraintTop_toBottomOf="@+id/button2" />
