@@ -3,9 +3,9 @@
     <string name="user_image">UserImage</string>
 
     <!-- Login Activity -->
-    <string name="username_hint">Username:</string>
-    <string name="password_hint">Password:</string>
-    <string name="button_label">Login</string>
+    <string name="username_hint">Usuario:</string>
+    <string name="password_hint">Contraseña:</string>
+    <string name="button_label">Ingresar</string>
 
     <!-- Menu Activity -->
     <string name="button_label2">Info. Postulante</string>
