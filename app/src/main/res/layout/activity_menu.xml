@@ -16,7 +16,10 @@
         android:onClick="goToPostulanteRegistroActivity"
         android:text="@string/button_label3"
         app:icon="@drawable/ic_postulant_add"
-        app:iconGravity="textStart"/>
+        app:iconGravity="textStart"
+        app:backgroundTint="@null"
+        android:background="@drawable/custom_button"
+        />
 
     <Button
         android:id="@+id/button3"
@@ -25,7 +28,10 @@
         android:onClick="goToPostulanteInfoActivity"
         android:text="@string/button_label2"
         app:icon="@drawable/ic_postulant_view_info"
-        app:iconGravity="textStart" />
+        app:iconGravity="textStart"
+        app:backgroundTint="@null"
+        android:background="@drawable/custom_button"
+        />
 
 </LinearLayout>
 
