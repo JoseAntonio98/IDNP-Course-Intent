@@ -4,7 +4,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:gravity="center" >
+    android:gravity="center"
+    android:background="@drawable/custom_background"
+    >
 
     <ImageView
         android:id="@+id/imageView3"
@@ -51,6 +53,9 @@
         android:layout_marginTop="16dp"
         android:drawableLeft="@drawable/ic_login_button"
         android:onClick="goToMenuActivity"
-        android:text="@string/button_label" />
+        android:text="@string/button_label"
+        app:backgroundTint="@null"
+        android:background="@drawable/custom_button"
+        />
 
 </LinearLayout>

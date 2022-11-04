@@ -5,7 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".PostulantRegisterActivity"
-    android:orientation="vertical" >
+    android:orientation="vertical"
+    android:background="@drawable/custom_background"
+    >
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -108,7 +110,10 @@
             android:layout_marginTop="18dp"
             app:icon="@drawable/ic_baseline_check"
             app:iconGravity="textStart"
-            android:text="@string/button_register" />
+            android:text="@string/button_register"
+            app:backgroundTint="@null"
+            android:background="@drawable/custom_button"
+            />
 
     </LinearLayout>
 </LinearLayout>

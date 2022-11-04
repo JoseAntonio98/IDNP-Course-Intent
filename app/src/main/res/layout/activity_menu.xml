@@ -6,7 +6,9 @@
     android:layout_height="match_parent"
     tools:context=".MenuActivity"
     android:orientation="vertical"
-    android:gravity="center" >
+    android:gravity="center"
+    android:background="@drawable/custom_background"
+    >
 
     <Button
         android:id="@+id/button2"
