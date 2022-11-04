@@ -13,11 +13,12 @@
 
   - **Login and Menu Activities**
     
-    ![image](https://user-images.githubusercontent.com/64320646/197639190-e63955a4-73d9-4d70-9292-7301e250354a.png)
+    ![preview01](https://user-images.githubusercontent.com/64320646/200088672-b9b3afba-e76f-49bf-8394-06f648ef6f53.png)
+
          
   - **PostulanteRegistro and PostulanteInfo Activities**
     
-    ![image](https://user-images.githubusercontent.com/64320646/197639313-9a650f37-f8b5-41b5-a713-f0bdb57f336b.png)
+    ![preview02](https://user-images.githubusercontent.com/64320646/200088708-fc4760e3-0060-4ca6-b695-e36345f122d7.png)
   
 
 ## References
