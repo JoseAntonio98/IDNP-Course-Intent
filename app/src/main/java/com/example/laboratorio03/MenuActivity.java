@@ -51,4 +51,12 @@ public class MenuActivity extends AppCompatActivity {
         Intent RegistroIntent = new Intent(this, PostulantRegisterActivity.class);
         actResLauncher.launch(RegistroIntent);
     }
+
+    public void goToListaPostulantesActivity(View view) {
+        Bundle bundle = new Bundle();
+        bundle.putSerializable("listaP", listaPostulante);
+        Intent ListaIntent = new Intent(this, PostulantListActivity.class);
+        ListaIntent.putExtra("listaB", bundle);
+        startActivity(ListaIntent);
+    }
 }
